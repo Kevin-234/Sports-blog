@@ -1,0 +1,150 @@
+* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav Section */
+
+nav {
+  padding: 1em 1em;
+  transition: all .3s;
+  font-family: 'Anton', sans-serif;
+}
+
+nav:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+li {
+  margin-right: 25px;
+  font-size: 25px;
+  
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  color: #ff9800;
+}
+
+.nav-link:active {
+  transform: scale(1);
+}
+
+a {
+  color: #ff9800;
+  text-decoration: none;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  color: #e28f30;
+  font-family: 'Anton', sans-serif;
+  font-size: 6rem;
+  text-shadow: 2px 4px 10px black;
+  letter-spacing: 2px;
+  
+}   
+
+/* Main Section */
+main {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 6em;
+}
+
+.article-container {
+  display: flex;
+  margin-top: 6em;
+}
+
+.article-content {
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+}
+
+.detail {
+  font-size: 1rem;
+  font-style: italic;
+  color: #7a7a7a;
+}
+
+.detail .date {
+  margin-bottom: .5em;
+}
+
+.detail span {
+  color: #e28f30;
+}
+
+.detail span:hover {
+  text-decoration: underline;
+}
+
+.article-title {
+  font-size: 2.5rem;
+}
+
+.article-text {
+  max-width: 50ch;
+  color: #7a7a7a;
+}
+
+.article-content button {
+  align-self: flex-start;
+  border: none;
+  background-color: white;
+  color: #e28f30;
+  font-size: 1.3rem;
+  transition: all .3s;
+}
+
+.article-content button:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  height: 5vh;
+  background-color: #da7a2d;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
